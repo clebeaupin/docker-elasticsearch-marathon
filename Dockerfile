@@ -1,4 +1,4 @@
-FROM tobilg/elasticsearch:latest
+FROM elasticsearch:2.3
 
 RUN apt-get -y update
 RUN apt-get -y install curl
